@@ -24,7 +24,7 @@ jobs:
 
       - name: Generate HTML Report
         run: |
-          pytest D:\git_IvPKO\laba_3_last\report.html --html=report.html --self-contained-html
+          pytest --html=report.html --self-contained-html
         continue-on-error: true
 
       - name: Upload Test Report
